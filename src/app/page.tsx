@@ -1,7 +1,13 @@
 import Image from "next/image";
-
+import Header from "../Components/Header";
+import Head from "../Components/Head";
+import MainCarousel from "../Components/MainCarousel";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"></main>
+    <>
+      <Head />
+      <Header />
+      <MainCarousel />
+    </>
   );
 }
