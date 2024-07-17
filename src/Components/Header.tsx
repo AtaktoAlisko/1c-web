@@ -15,14 +15,14 @@ export default function Header() {
               priority
             />
           </li>
-          <li className="flex gap-10">
+          <div className="flex gap-10">
             <li>Главная</li>
             <li>О нас</li>
             <li>Продукты</li>
             <li>Услуги</li>
             <li>Выполненные проекты</li>
             <li>Контакты</li>
-          </li>
+          </div>
         </ul>
       </header>
     </>
