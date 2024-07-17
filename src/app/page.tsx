@@ -11,7 +11,6 @@ export default function Home() {
       <Carousel />
       <h2 className="text-center text-4xl mt-10 mb-10">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
       <Info />
-      <Info />
     </>
   );
 }
