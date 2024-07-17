@@ -9,7 +9,7 @@ export default function Home() {
       <Head />
       <Header />
       <Carousel />
-      <h2 className="text-center text-4xl mt-10 mb-10">ПОЧЕМУ ВЫБИРАЮТ НАС</h2>
+      <h2 className="text-center text-4xl mt-10 mb-10">ПОЧЕМУ ВЫБИРАЮТ НННАС</h2>
       <Info />
     </>
   );
