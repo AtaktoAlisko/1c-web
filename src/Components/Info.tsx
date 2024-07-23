@@ -3,87 +3,99 @@ import Image from "next/image";
 export default function Info() {
   return (
     <>
-      <div className="grid grid-cols-3 gap-10">
-        <div className="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
-              alt=""
-            />
-          </a>
-          <div className="p-6 text-surface dark:text-white">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
+      <div className="grid grid-cols-2 md:grid-cols-5">
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">😎</h3>
             <p className="mb-4 text-base">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Для руководителя
             </p>
-            <button
-              type="button"
-              className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-              data-twe-ripple-init
-              data-twe-ripple-color="light"
-            >
-              Button
-            </button>
           </div>
         </div>
 
-        <div className="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
-              alt=""
-            />
-          </a>
-          <div className="p-6 text-surface dark:text-white">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">🧮</h3>
             <p className="mb-4 text-base">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Для бухгалтера
             </p>
-            <button
-              type="button"
-              className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-              data-twe-ripple-init
-              data-twe-ripple-color="light"
-            >
-              Button
-            </button>
           </div>
         </div>
-
-        <div className="block rounded-lg bg-white shadow-secondary-1 dark:bg-surface-dark">
-          <a href="#!">
-            <img
-              className="rounded-t-lg"
-              src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg"
-              alt=""
-            />
-          </a>
-          <div className="p-6 text-surface dark:text-white">
-            <h5 className="mb-2 text-xl font-medium leading-tight">
-              Card title
-            </h5>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">💰</h3>
             <p className="mb-4 text-base">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Для казначейства
             </p>
-            <button
-              type="button"
-              className="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-              data-twe-ripple-init
-              data-twe-ripple-color="light"
-            >
-              Button
-            </button>
           </div>
         </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">🚚</h3>
+            <p className="mb-4 text-base">
+              Для транспортного отдела
+            </p>
+          </div>
+        </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">🛒</h3>
+            <p className="mb-4 text-base">
+              Для отдела закупки
+            </p>
+          </div>
+        </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">🏭</h3>
+            <p className="mb-4 text-base">
+              Для производства
+            </p>
+          </div>
+        </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">⚙️</h3>
+            <p className="mb-4 text-base">
+              Для технического отдела
+            </p>
+          </div>
+        </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">📦</h3>
+            <p className="mb-4 text-base">
+              Для склада
+            </p>
+          </div>
+        </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">🛠️</h3>
+            <p className="mb-4 text-base">
+              Для ИТ отдела
+            </p>
+          </div>
+        </div>
+        <div
+          className="mx-3 mt-6 flex flex-col rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white sm:shrink-0 sm:grow sm:basis-0">
+          <div className="p-6 text-center">
+          <h3 className="mb-2 text-6xl font-medium leading-tight">👥</h3>
+            <p className="mb-4 text-base">
+              Для службы ИБ
+            </p>
+          </div>
+        </div>
+       
       </div>
     </>
   );
